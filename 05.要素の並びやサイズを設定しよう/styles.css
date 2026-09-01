@@ -1,10 +1,31 @@
 .humidity {
   margin-left: 30px;
+  background-color: #ADD8E6;
+  display: inline-block;
+  width:40px;
+  height:20px;
 }
 
-
 /* todayクラスに適用するスタイル */
+.today{
+  font-size:20px;
+  span{
+  background-color:#FFC0CB;
+  display:inline-block;
+  height:28px;
+}
+}
 
+.temperature{
+  background-color: #77D8B2;
+  display:inline-block;
+  width:40px;
+  height:20px;
+}
+
+img{
+  display: block;
+}
 /* temperatureクラスに適用するスタイル */
 
 /* humidityクラスに適用するスタイル */
