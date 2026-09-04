@@ -19,6 +19,7 @@ h1 {
   margin: 12px 500px 0 0;
 }
 
+
 li {
   margin: 0 20px;
 }
@@ -40,11 +41,18 @@ div {
   margin: 10px;
   background-color: #EAD7A4;
   text-align: center;
+  box-sizing:border-box;
+  width:320px;
+  height:360px;
+  border:1px solid #800000;
+  display:inline-block;
 }
 
 img {
   margin: 10px 0;
-}
+  width:300px;
+  height:300px;  
+  }
 
 
 /* img要素にスタイルを適用 */
